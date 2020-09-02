@@ -103,6 +103,10 @@ controller:
                     $contractor_name = $worksheet->getCellByColumnAndRow(0, $row)->getValue();
                     $unit_name = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
                     $empcode = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
+        //            for date to get in dd/mm/yyyy format
+      //              $increment_date = PHPExcel_Style_NumberFormat::toFormattedString($worksheet->getCellByColumnAndRow(45, $row)->getCalculatedValue(), 'dd/mm/yyyy');
+      //                $date_of_resignation = $worksheet->getCellByColumnAndRow(80, $row)->getFormattedValue();
+      //             ending for date to get in dd/mm/yyyy format
                       $contractor_namelen = strlen($contractor_name);
                     if (isset($contractor_name)) {
                         if ($contractor_namelen >= 10) {
