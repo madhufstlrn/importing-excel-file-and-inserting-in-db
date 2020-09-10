@@ -175,7 +175,7 @@ $(document).ready(function(){
     }
     
     
-    # Model:
+   # Model:
     
     function insert($data)
  {
