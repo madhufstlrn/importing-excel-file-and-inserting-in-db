@@ -1,6 +1,6 @@
 # importing-excel-file-and-inserting-in-db
 
-//view:bulkdata_import.php
+# view:bulkdata_import.php
 
 
 <html class="no-js" lang="en">
@@ -31,7 +31,7 @@
 
 </html>
 
-<script>
+ <script>
 $(document).ready(function(){
 
 // load_data();
@@ -66,9 +66,9 @@ $(document).ready(function(){
 
 });
 </script>
-//view end:
+# view end:
 
-controller:
+# controller:
 
  
   public function bulkdata_import() {
@@ -175,7 +175,7 @@ controller:
     }
     
     
-    Model:
+    # Model:
     
     function insert($data)
  {
